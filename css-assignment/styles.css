@@ -1,0 +1,90 @@
+/* ==============================
+   GLOBAL STYLES & RESET
+   ============================== */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+
+/* ==============================
+   HEADER SECTION
+   ============================== */
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* ==============================
+   NAVIGATION MENU
+   ============================== */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* ==============================
+   CARD SECTIONS
+   ============================== */
+
+.card {
+  background-color: white;
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* ==============================
+   BUTTONS
+   ============================== */
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* ==============================
+   FOOTER
+   ============================== */
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+  margin-top: 30px;
+}
